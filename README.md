@@ -13,8 +13,11 @@ How to install
 1. Clone project
 2. Buat file .env dan sesuaikan setting pada database dan redis
 3. Update composer
-4. Generate personal token dengan nama "mind" dengan perintah php artisan passport:client --personal
-5. Jalankan server
+4. Migrate database dengan perintah php artisan migrate --seed
+5. User admin memiliki email admin@mail.com dan password "password"
+6. User biasa memiliki email user@mail.com dan password "password"
+7. Generate personal token dengan nama "mind" dengan perintah php artisan passport:client --personal
+8. Jalankan server
 
 Link Postman 
 https://documenter.getpostman.com/view/15516682/2s9XxwwDuF
